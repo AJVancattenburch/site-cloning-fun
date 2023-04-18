@@ -1,0 +1,1 @@
+onload = document.getElementById("bg-video").play()

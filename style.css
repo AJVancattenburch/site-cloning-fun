@@ -1,0 +1,190 @@
+.card {
+  background-image: url("code-monster.png");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  display: flex;
+  background-color: black;
+  box-shadow: inset 50px 50px 100px 75px rgb(0, 0, 0);
+}
+
+div#map.map-card {
+  border-left: outset 3px aliceblue;
+  border-right: outset 3px aliceblue;
+}
+
+.card-title {
+  color: #b7d7f4;
+  position: flex;
+  height: 100%;
+  padding-left: 18px;
+
+}
+
+.card-text {
+  color: #b7d7f4;
+  font-size: 18px;
+  font-size-adjust: initial;
+  text-shadow: 1px 1.5px 0px rgb(43, 46, 57);
+}
+
+/********* Button Properties *********/
+.signup-btn {
+  box-shadow: inset 2px 4px 6px #161227;
+  text-shadow: 1px 1.5px 0px rgb(43, 46, 57);
+  border: outset 2px #161227;
+  background-image: linear-gradient(linear, left top, right top, color-stop(0%, #1e0a0a00), color-stop(25%, #1e0a0a00), color-stop(60%, #dbc7c7d9), color-stop(100%, #1e0a0a00));
+  background-image: linear-gradient(120deg, #1e0a0a00 0%, #1e0a0a00 25%, #dbc7c7d9 60%, #1e0a0a00 100%);
+  background-repeat: repeat-y;
+  background-position: -400px 0;
+}
+
+.signup-btn:hover {
+  color: aliceblue;
+  background-color: #4f8fca;
+  border: inset 3px #2f296c;
+  animation: shimmer 6s linear infinite;
+}
+
+.draw-btn {
+  box-shadow: inset 4px 8px 20px #161227;
+  text-shadow: 1px 1.5px 0px rgb(43, 46, 57);
+  border: outset 3px #161227;
+  background-image: linear-gradient(linear, left top, right top, color-stop(0%, #1e0a0a00), color-stop(25%, #1e0a0a00), color-stop(60%, #dbc7c7d9), color-stop(100%, #1e0a0a00));
+  background-image: linear-gradient(120deg, #1e0a0a00 0%, #1e0a0a00 25%, #dbc7c7d9 60%, #1e0a0a00 100%);
+  background-repeat: repeat-y;
+  background-position: -400px 0;
+  animation: shimmer 6s linear infinite;
+}
+
+.draw-btn:hover {
+  color: aliceblue;
+  background-color: #4f8fca;
+  border: inset 3px #2f296c;
+  box-shadow: inset 6px 12px 20px #0b0b18;
+}
+
+/********* The Code Monster! *********/
+#bg-video {
+  background: url("customAdobePremiereElem.mp4");
+  position: initial;
+  object-fit: cover;
+  display: flex;
+  text-align: end;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  clip-rule:evenodd;
+  border-bottom: inset rgba(0, 0, 0, 0.01);
+  
+}
+
+.fill {
+  display: flex;
+  background-size: contain;
+  width: 100%;
+  height: 50% 50%;
+}
+
+/********* Container Properties *********/
+.container-fluid{
+  height: auto;
+  min-height: 25px;
+  background: black; 
+  z-index: 1;
+}
+
+.container {
+  z-index: 0;
+}
+
+/********* Interactive Links | Mid-Section *********/
+div#bg-purple-fade {
+  color: #b7d7f4;
+  background-image: url("black-purple-fade.jpg");
+  clip-path: fill-box;
+  height: 250px;
+  border: inset 2px rgba(0, 0, 0, 0.02);
+  border-color: #161227;
+  z-index: 1;
+}
+
+img#keynotes {
+  margin-top: 20%;
+  height: 50px;
+  width: 50px;
+  box-shadow: inset 1px 1px 3px 3px #180b0b;
+  border: outset 5px #000000;
+}
+
+img#keynotes:hover {
+  border: inset 5px #000000;
+}
+
+/********* Sign-Up Form *********/
+.intro-header {
+  color: #b7d7f4;
+  z-index: 0;
+}
+
+.bg-dark {
+  background-color: rgba(48, 26, 62, 0.453);
+  border: outset 5px #000000;
+  border-style: groove;
+}
+
+/********* Bottom Footer *********/
+footer {
+  position: sticky;
+  color: #b7d7f4;
+  border: outset 5px #000000;
+  border-style: groove;
+}
+
+/********* Footer Icons *********/
+.bi-facebook {
+  color:#d6e8f9dd;
+  box-shadow: inset 6px 12px 20px #180b0b;
+  border: outset 5px #000000;
+}
+
+.bi-facebook:hover {
+  border: inset 5px #000000;
+}
+
+.bi-twitter {
+  color:#d6e8f9dd;
+  box-shadow: inset 6px 12px 20px #180b0b;
+  border: outset 5px #000000;
+}
+
+.bi-twitter:hover {
+  border: inset 5px #000000;
+}
+
+.bi-github {
+  color:#d6e8f9dd;
+  box-shadow: inset 6px 12px 20px #180b0b;
+  border: outset 5px #000000;
+}
+
+.bi-github:hover {
+  border: inset 5px #000000;
+}
+
+
+@keyframes shimmer {
+
+  0% {
+    background-position: -800px 0
+  }
+
+  50% {
+    background-position: -200px 0
+  }
+
+  100% {
+    background-position: 2000px 0
+  }
+}

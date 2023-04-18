@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <title>Getting Started with Bootstrap</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  <script src="https://kit.fontawesome.com/9893b2f6ff.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<style></style>
+
+<body>
+
+<!------------------ Row 1 | Col 1 | Card ------------------>
+
+  <main>
+
+    
+    <section>
+
+      <div class="order-md-2 row container-fluid bg-black d-flex space-around space-between p-1 me-0 ms-0">
+
+        <div class="col-md-none order-lg-1 col-lg-2"></div>
+
+        <div class="order-md-2 col-md-6 col-lg-4">
+
+          <div class="row p-1">
+            
+            <!--------- Site Description --------->
+            <div class="col card container .flex-column">
+              <br>
+              <h5 class="card-title text-align">Code Monster</h5>
+              
+              <div class="row card-body text-start mb-2 mt-2">
+                <div class="col card-text">
+                  <p>Destruction Junction:
+                  Draw your functions( )</p>
+                  <div>
+                    <p>Create the ultimate Code Monster</p>
+                  </div>
+                  <div>
+                    <p>Your Code Monster vs Opponent's Code</p>
+                  </div>
+                  <div>
+                    <p>Rise to the top of the <a title="Mock Image of Top Scores" href="https://media.indiedb.com/cache/images/games/1/59/58598/thumb_620x2000/2.1.png">scoreboard!</a></p>
+                  </div>
+                  <br>
+                  <div class="row">
+                    <div class="col-6 container mb-0 pt-3">
+                      <button type="button" class="draw-btn btn btn-primary w-100">draw()</button>
+                    </div>
+                    <div class="col-6"></div>
+                  </div>
+                </div>
+              </div>    
+
+            </div>
+          </div>
+        </div>
+
+        <!--------- The Code Monster! --------->
+        <div class="order-md-1 col-md-6 order-lg-3 container embed-responsive">
+          <video autoplay muted loop id="bg-video" class="end-0 text-light embed-responsive-item">
+            <source src="customAdobePremiereElem.mp4" type="video/mp4" onload="play()">
+            Your browser does not support HTML 5 video.
+          </video>
+          <audio src="Evil_laugh_Male_9-Himan-1598312646.mp3"></audio>
+        </div>
+      
+      </div>
+    </section>  
+
+
+    <section>
+      
+      <div id="bg-purple-fade" class="row container-fluid text-center p-1 me-0 ms-0">
+        
+        <div class="col-2"></div>
+
+        <!--------- Interactive Links | Middle Section --------->
+        <div class="col-2 p-2">
+          <div class="row">
+            <div class="col">
+              <img id="keynotes" src="https://image.freepik.com/free-vector/monster-book-illustration-character_78271-150.jpg" alt="Doc Library Img">
+              <div class="m-3">
+                <h6>Doc Library</h6>
+                <p>Snippets Created by Top Coders</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-2 p-2">
+          <div class="row">
+            <div class="col">
+              <img id="keynotes" class="bg-white" src="https://bogleech.com/awfulhospital/lexicovermus2.png" alt="Build Skills Img">
+              <div class="m-3">
+                <h6>Build Skills</h6>
+                <p>Free Coding Courses</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-2 p-2">
+          <div class="row">
+            <div class="col">
+              <img id="keynotes" src="https://thumbs.dreamstime.com/t/green-slime-monster-word-bubble-talking-fat-cute-vector-illustration-use-as-flyer-promotion-graphic-47031031.jpg" alt="Forum Img">
+              <div class="m-3">
+                <h6>Forum</h6>
+                <p>Learn | Educate  Converge</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-2 p-2">
+          <div class="row">
+            <div class="col">
+              <img id="keynotes" src="https://media.istockphoto.com/vectors/cartoon-cute-monster-in-confused-expression-vector-id1284703964?k=20&m=1284703964&s=612x612&w=0&h=fVfVGCOtZPkuMRCfgZ5aO81AexQQOgmnx4CoC2w5fho=" alt="FAQ Img">
+              <div class="m-3">
+                <h6>FAQ</h6>
+                <p>Frequently Asked Questions</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-2"></div>
+
+      </section>
+      
+      <section>
+
+        <div class="bg-dark row intro-header ms-0 me-0">
+
+          <div class="container start-0 text-center">
+            <div class="row m-0">
+              <div class="col-sm-none col-4"></div>
+              <!--------- Sign-Up Form --------->
+              <div class="col-4">
+                <div class="tab-content custom-tab-content">
+                <div class="subscribe-panel m-2">
+                  <h5><b>New Users!</b></h5>
+                  <p><small><b>Sign up today</b> and get <b>free access</b> to open source code to teach your monster new attacks!!</small>
+                  </p>
+                </div>
+                
+                <form action="" method="post">
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"
+                      aria-hidden="true"></i></span>
+                      <input type="text" class="form-control input-lg" name="email" id="email"
+                      placeholder="Enter your Email" />
+                      <button type="submit" class="signup-btn btn btn-primary btn-sm">Submit</button>
+                  </div>
+                  <div class="col-sm-none col-4 mb-1"></div>
+                  <br />
+                </form>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+    </section>
+    
+  </main>
+
+        <!--------- Interactive Google Map --------->
+  <section class="container-fluid card map-card">
+
+    <div class="row bg-light">
+      <div class="col">
+        <div id="map-google-1">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11555.974566220277!2d-116.28667399999999!3d43.606674!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54ae494ccd9917fd%3A0xd267ec81cdf20f95!2sBoise%20CodeWorks!5e0!3m2!1sen!2sus!4v1681766208782!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!--------- Bottom Section --------->
+  <footer class="footer">
+
+    <div class="row container-fluid p-1 ms-0 me-0">
+      <div class="col-4">
+        <div class="row text-end">
+
+          <div class="col-12">
+            <div class="row">
+
+              <div class="col-3"></div>
+              <!--------- Social Media Icons --------->
+              <div class="col-3">
+                <i class="bi bi-facebook img-fluid"></i>
+              </div>
+              <div class="col-3">
+                <i class="bi bi-twitter img-fluid"></i>
+              </div>
+              <div class="col-3">
+                <i class="bi bi-github img-fluid"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-3"></div>
+
+      <div class="col-5">
+        <div class="row ps-5">
+          <div class="col-12">
+            <span class="legal">is a fictive company by Anthony Vancattenburch</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>

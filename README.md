@@ -7,4 +7,4 @@ This challenge will likely take some serious time to complete, and it will test 
 
 Option 2 - STYLUS - A PEN THAT DOES MORE
 
-<img src="https://bcw.blob.core.windows.net/public/img/Cloning-fun-challenge.png)" width ="50%" height="50%">
+<img src="Cloning-fun-challenge.png)" width ="50%" height="50%">

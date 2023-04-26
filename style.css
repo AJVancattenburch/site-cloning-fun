@@ -1,3 +1,7 @@
+body {
+  line-height: 1.2rem;
+}
+
 .card {
   background-image: url("code-monster.png");
   background-repeat: no-repeat;
@@ -102,12 +106,14 @@ div#map.map-card {
 /********* Interactive Links | Mid-Section *********/
 div#bg-purple-fade {
   color: #b7d7f4;
+  font-size: 15px;
   background-image: url("black-purple-fade.jpg");
   clip-path: fill-box;
   height: 250px;
   border: inset 2px rgba(0, 0, 0, 0.02);
   border-color: #161227;
   z-index: 1;
+  margin-left: calc(-.0 * var(--bs-gutter-x));
 }
 
 img#keynotes {
@@ -126,6 +132,14 @@ img#keynotes:hover {
 .intro-header {
   color: #b7d7f4;
   z-index: 0;
+}
+div.col>div.subscription-panel {
+  flex-wrap: wrap;
+}
+form {
+  display: flex;
+  background-position: center;
+  max-width: 50%;
 }
 
 .bg-dark {

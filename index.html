@@ -14,7 +14,11 @@
 
 </head>
 
-<style></style>
+<style>
+  * {
+    outline: 1px solid red;
+  }
+</style>
 
 <body>
 
@@ -80,14 +84,12 @@
 
     <section>
       
-      <div id="bg-purple-fade" class="row container-fluid text-center p-1 me-0 ms-0">
+      <div id="bg-purple-fade" class="row container-fluid text-center p-1">
         
-        <div class="col-2"></div>
-
         <!--------- Interactive Links | Middle Section --------->
-        <div class="col-2 p-2">
+        <div class="col-3 p-2">
           <div class="row">
-            <div class="col">
+            <div class="col ms-1">
               <img id="keynotes" src="https://image.freepik.com/free-vector/monster-book-illustration-character_78271-150.jpg" alt="Doc Library Img">
               <div class="m-3">
                 <h6>Doc Library</h6>
@@ -97,10 +99,10 @@
           </div>
         </div>
         
-        <div class="col-2 p-2">
+        <div class="col-3 p-2">
           <div class="row">
             <div class="col">
-              <img id="keynotes" class="bg-white" src="https://bogleech.com/awfulhospital/lexicovermus2.png" alt="Build Skills Img">
+              <img id="keynotes" class="bg-white" src="lego-monster.jpg" alt="Build Skills Img">
               <div class="m-3">
                 <h6>Build Skills</h6>
                 <p>Free Coding Courses</p>
@@ -109,61 +111,60 @@
           </div>
         </div>
         
-        <div class="col-2 p-2">
+        <div class="col-3 p-2">
           <div class="row">
             <div class="col">
               <img id="keynotes" src="https://thumbs.dreamstime.com/t/green-slime-monster-word-bubble-talking-fat-cute-vector-illustration-use-as-flyer-promotion-graphic-47031031.jpg" alt="Forum Img">
               <div class="m-3">
                 <h6>Forum</h6>
-                <p>Learn | Educate  Converge</p>
+                <p>Learn<br>Educate<br>Converge</p>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-2 p-2">
+        <div class="col-3 p-2">
           <div class="row">
             <div class="col">
               <img id="keynotes" src="https://media.istockphoto.com/vectors/cartoon-cute-monster-in-confused-expression-vector-id1284703964?k=20&m=1284703964&s=612x612&w=0&h=fVfVGCOtZPkuMRCfgZ5aO81AexQQOgmnx4CoC2w5fho=" alt="FAQ Img">
-              <div class="m-3">
+              <div class="me-3">
                 <h6>FAQ</h6>
                 <p>Frequently Asked Questions</p>
               </div>
             </div>
           </div>
         </div>
-        
-        <div class="col-2"></div>
 
       </section>
       
       <section>
 
-        <div class="bg-dark row intro-header ms-0 me-0">
+        <div class="bg-dark intro-header ms-0 me-0">
 
           <div class="container start-0 text-center">
             <div class="row m-0">
-              <div class="col-sm-none col-4"></div>
+
               <!--------- Sign-Up Form --------->
-              <div class="col-4">
+              <div class="col">
                 <div class="tab-content custom-tab-content">
                 <div class="subscribe-panel m-2">
                   <h5><b>New Users!</b></h5>
                   <p><small><b>Sign up today</b> and get <b>free access</b> to open source code to teach your monster new attacks!!</small>
                   </p>
                 </div>
-                
-                <form action="" method="post">
-                  <div class="input-group">
-                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"
-                      aria-hidden="true"></i></span>
-                      <input type="text" class="form-control input-lg" name="email" id="email"
-                      placeholder="Enter your Email" />
-                      <button type="submit" class="signup-btn btn btn-primary btn-sm">Submit</button>
+                <div class="row">
+                  <div class="col d-flex justify-content-center">
+                    <form action="" method="post">
+                      <div class="input-group d-flex">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"
+                          aria-hidden="true"></i></span>
+                          <input type="text" class="form-control input-lg" name="email" id="email"
+                          placeholder="Email..." />
+                          <button type="submit" class="signup-btn btn btn-primary btn-sm">Submit</button>
+                      </div>
+                    </form>
                   </div>
-                  <div class="col-sm-none col-4 mb-1"></div>
-                  <br />
-                </form>
+                </div>  
                 
               </div>
             </div>
@@ -202,13 +203,13 @@
               <div class="col-3"></div>
               <!--------- Social Media Icons --------->
               <div class="col-3">
-                <i class="bi bi-facebook img-fluid"></i>
+                <a href="https://www.facebook.com/aj.vancattenburch/"><i class="bi bi-facebook img-fluid"></i></a>
               </div>
               <div class="col-3">
-                <i class="bi bi-twitter img-fluid"></i>
+                <a href="https://twitter.com/AVancattenburch"><i class="bi bi-twitter img-fluid"></i></a>
               </div>
               <div class="col-3">
-                <i class="bi bi-github img-fluid"></i>
+                <a href="https://github.com/AJVancattenburch"><i class="bi bi-github img-fluid"></i></a>
               </div>
             </div>
           </div>
@@ -219,7 +220,7 @@
       <div class="col-3"></div>
 
       <div class="col-5">
-        <div class="row ps-5">
+        <div class="row pe-0">
           <div class="col-12">
             <span class="legal">is a fictive company by Anthony Vancattenburch</span>
           </div>
